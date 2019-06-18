@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#MainNav{
+    background-color: #212529
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.burg {
+    color: #fff
+}
+
+nav {
+    display: block;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+
+@media (max-width: 991.98px) {
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 576px){
+
+.container {
+    max-width: 540px;
+ }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    color: #fed136;
+    font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background-color: #fed136;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    border-radius: .25rem;
+    line-height: 1;
+    
+}
+
+
+
+@media (min-width: 768px){
+header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+}
+
+header.masthead {
+    text-align: center;
+    color: #fff;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: #fed136;
+    border-color: #fed136;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+.btn {
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-weight: 700;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: ;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+a {
+    color: #fed136;
+}
+
